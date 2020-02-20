@@ -1,0 +1,8 @@
+.page {
+  width: 100%;
+  padding: 10px 15px;
+}
+
+  button {
+    margin-bottom: 8px;
+  }

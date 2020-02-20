@@ -1,0 +1,106 @@
+@import '/static/css/index.css'; 
+ .audio-root {
+  width: 720rpx;
+  height: 150rpx;
+  margin-left: 15rpx;
+  margin-right: 15rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  border: 1rpx solid #d0d4d8;
+}
+.audio-left {
+  /* display:flex;
+  justify-content: center;
+  align-items:center; */
+  position: relative;
+  width: 150rpx;
+  background-color: #efeded;
+}
+.poster-img {
+  width: 150rpx;
+  height: 150rpx;
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+}
+.audio-left-pause-btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 50rpx;
+  height: 50rpx;
+  border: 3rpx solid #FFFFFF;
+  border-radius: 25rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  background-color: rgba(156, 156, 156, 0.6);
+}
+.audio-left-autoplay {
+  width: 15rpx;
+  height: 15rpx;
+  background-color: #FFFFFF;
+  display: inline-block;
+}
+.audio-left-pause {
+  border-width: 12rpx;
+  border-style: solid;
+  margin-left: 17rpx;
+  border-color: transparent transparent transparent #FFFFFF;
+  display: inline-block;
+}
+.audio-right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  background-color: #d0d4d81f;
+  width: 570rpx;
+}
+.audio-text {
+  width: 370rpx;
+  margin-left: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.audio-text-name {
+  font-size: 36rpx;
+  font-weight: 400;
+}
+.audio-text-author {
+  font-size: 30rpx;
+  color: #8d8981;
+}
+.audio-time {
+  width: 200rpx;
+  position: relative;
+}
+.audio-time-text {
+  position: absolute;
+  top: 20rpx;
+  right: 50rpx;
+}

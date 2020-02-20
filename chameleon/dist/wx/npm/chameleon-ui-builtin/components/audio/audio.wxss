@@ -1,0 +1,10 @@
+@import '/static/css/index.wxss'; 
+ .audio-root {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 150rpx;
+}

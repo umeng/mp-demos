@@ -1,0 +1,64 @@
+<template>
+  <app router-config="{{routerConfig}}"></app>
+</template>
+
+<script>
+import uma from '../uma-stat.js';
+import routerConfig from '../router.config.json';
+
+uma.init({
+	appKey: 'YOUR_APP_KEY',
+	useOpenid: true,
+	autoGetOpenid: true,
+	debug: true
+});
+
+class App {
+  data = {
+    routerConfig
+  }
+
+  created(res) {
+  }
+
+  onShow(options) {
+    uma.resume(options);
+  }
+
+  onHide(options) {
+    uma.pause();
+  }
+}
+
+export default new App();
+</script>
+
+<style>
+
+</style>
+
+<script cml-type="json">
+{
+  "wx": {
+    "window": {
+      "backgroundTextStyle":"light",
+      "navigationBarBackgroundColor": "#fff",
+      "navigationBarTitleText": "Chameleon",
+      "navigationBarTextStyle":"black"
+    }
+  },
+  "baidu": {
+    "window": {
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#ffffff",
+      "navigationBarTitleText": "Chameleon",
+      "navigationBarTextStyle": "black"
+    }
+  },
+  "alipay": {
+      "window": {
+        "defaultTitle": "Chameleon"
+      }
+  }
+}
+</script>

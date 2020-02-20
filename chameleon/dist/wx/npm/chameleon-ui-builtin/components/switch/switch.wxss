@@ -1,0 +1,9 @@
+@import '/static/css/index.wxss'; 
+ .cml-switch-disabled {
+  opacity: 0.5;
+}
+.cml-switch-label {
+  color: #666;
+  font-weight: 400;
+  font-size: 32rpx;
+}

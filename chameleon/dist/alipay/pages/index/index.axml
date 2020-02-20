@@ -1,0 +1,7 @@
+<view class=" cml-base cml-view cml-194ff457"><cml-buildin-page title="chameleon" class=" cml-base cml-page cml-194ff457">
+    <view class=" cml-base cml-view cml-194ff457"><cml-buildin-scroller height="{{-1}}" class=" cml-base cml-scroller cml-194ff457">
+      <view class="scroller-wrap  cml-base cml-view cml-194ff457">
+        <view onTap="_cmlEventProxy" data-eventtap="{{['trackEvent']}}" class=" cml-base cml-view cml-194ff457"><cml-buildin-button onTap="_cmlEventProxy" data-eventtap="{{['trackEvent']}}" class=" cml-base cml-button cml-194ff457">trackEvent</cml-buildin-button></view> 
+      </view>
+    </cml-buildin-scroller></view>
+  </cml-buildin-page></view>

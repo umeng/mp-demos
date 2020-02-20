@@ -1,0 +1,4 @@
+<view class="page">
+  <text>New Pagem2</text>  
+  <button class="btn" type="primary" onTap=gotoPage1>page1</button>
+</view>

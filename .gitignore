@@ -1,0 +1,16 @@
+node_modules/
+.idea/*
+.idea/jsLibraryMappings.xml
+.idea/libraries/dplus_js_sdk_node_modules.xml
+.grunt/*
+node_modules_bak/
+node_modules.zip
+node_modules_bak.zip
+phantomjs-1.9.20.tgz
+phantomjs-2.1.1-macosx.zip
+test.html
+npm-debug.log
+.DS_Store
+webpack_dist
+oortserver.pid
+yarn.lock

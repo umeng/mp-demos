@@ -1,0 +1,12 @@
+{
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTitleText": "Chameleon",
+        "navigationBarTextStyle": "black"
+    },
+    "pages": [
+        "pages/index/index"
+    ],
+    "usingComponents": {}
+}

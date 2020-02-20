@@ -1,0 +1,4 @@
+<view class="page">
+  <button class="btn" type="primary" onTap="gotoPage2">跳转到Page2</button>
+  <button size="default" type="primary" onTap="trackEvent">trackEvent</button>
+</view>

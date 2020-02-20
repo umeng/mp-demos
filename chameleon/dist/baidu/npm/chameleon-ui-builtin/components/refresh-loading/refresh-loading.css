@@ -1,0 +1,17 @@
+@import '/static/css/index.css'; 
+ .refresh-loading {
+  height: 80rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.refresh-loading-gif {
+  width: 32rpx;
+  height: 32rpx;
+}
