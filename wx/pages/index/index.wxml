@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view>
+  <button type="primary" bindtap="gotoPage1">去页面1 </button>
+  <button type="primary" bindtap="trackEvent"> 测试trackEvent </button>
+</view>
