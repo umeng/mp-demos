@@ -8,8 +8,8 @@ import routerConfig from '../router.config.json';
 
 uma.init({
 	appKey: 'YOUR_APP_KEY',
-	useOpenid: true,
-	autoGetOpenid: true,
+  useOpenid: false,
+  autoGetOpenid: false,
 	debug: true
 });
 

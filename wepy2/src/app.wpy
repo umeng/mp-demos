@@ -16,8 +16,8 @@ import eventHub from './common/eventHub';
 
 uma.init({
 	appKey: 'YOUR_APP_KEY',
-	useOpenid: true,
-	autoGetOpenid: true,
+  useOpenid: false,
+  autoGetOpenid: false,
 	debug: true
 });
 

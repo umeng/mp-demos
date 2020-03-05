@@ -2,7 +2,7 @@ import 'umtrack-alipay';
 
 App({
   umengConfig: {
-    appKey: 'a22',
+    appKey: 'YOUR_APP_KEY',
     debug: true
   },
   onLaunch(options) {

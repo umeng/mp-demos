@@ -4,8 +4,8 @@ import App from './App'
 
 uma.init({
 	appKey: 'YOUR_APP_KEY',
-	useOpenid: true,
-	autoGetOpenid: true,
+  useOpenid: false,
+  autoGetOpenid: false,
 	debug: true
 })
 

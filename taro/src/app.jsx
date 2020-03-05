@@ -13,8 +13,8 @@ import './app.less'
 
 uma.init({
 	appKey: 'YOUR_APP_KEY',
-	useOpenid: true,
-	autoGetOpenid: true,
+  useOpenid: false,
+  autoGetOpenid: false,
 	debug: true
 });
 
