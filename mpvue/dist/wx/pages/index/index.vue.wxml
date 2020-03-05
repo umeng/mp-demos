@@ -1,0 +1,9 @@
+<import src="/components/card.vue.wxml" /><template name="52b67812">
+  <view class="_div data-v-6b277275">
+    <view class="_div data-v-6b277275 userinfo" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+      <image class="_img data-v-6b277275 userinfo-avatar" wx:if="{{userInfo.avatarUrl}}" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <image class="_img data-v-6b277275 userinfo-avatar" src="/static/images/user.png" background-size="cover"></image>
+      <view class="_div data-v-6b277275 userinfo-nickname"><template data="{{...$root[$kk+'0'], $root}}" is="24a63b71"></template></view>
+    </view> <button class="_button data-v-6b277275 btn" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}"> trackEvent </button>
+  </view>
+</template>

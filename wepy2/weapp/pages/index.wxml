@@ -1,0 +1,20 @@
+<!----------   wxs start ----------->
+<wxs module="m1">
+"use strict";
+
+var getTime = function getTime(time) {
+  var date = getDate(time);
+  var hour = date.getHours();
+  var mins = date.getMinutes();
+  var sec = date.getSeconds();
+  var milli = date.getMilliseconds();
+  return "".concat(hour, ":").concat(mins, ":").concat(sec, ".").concat(milli);
+};
+
+module.exports.getTime = getTime;
+</wxs>
+<!----------   wxs end   ----------->
+
+<view class="container">
+  <button size="mini" data-wpy-evt="6-0" bindtap="_proxy">trackEvent</button>
+</view>

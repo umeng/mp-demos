@@ -1,0 +1,6 @@
+
+<view class="counter {{style}}">
+  <button size="mini" data-wpy-evt="12-0" bindtap="_proxy">  +  </button>
+  <button size="mini" data-wpy-evt="12-1" bindtap="_proxy">  -  </button>
+  <label class="count {{ [ num > 55 ? 'red' : '',num < 45 ? 'green' : '' ] }}"> {{num}} </label>
+</view>

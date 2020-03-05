@@ -1,0 +1,11 @@
+
+<view class="wepy-list">
+    <view>
+        <button size="mini" data-wpy-evt="9-0" bindtap="_proxy">添加列表another</button>
+    </view>
+    <view wx:for="{{ list }}" wx:for-index="index" wx:for-item="item" wx:key="index">
+        <view data-wpy-evt="9-1" bindtap="_proxy" class="mylist">
+          <label>{{item.id}}</label>: {{item.title}}  <label data-wpy-evt="9-2" bindtap="_proxy" data-wpytap-a="{{ index }}"> X </label>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,10 @@
+
+<view class="group">
+  <label class="id">{{grouplist.id}}. </label>
+  <label data-wpy-evt="10-0" bindtap="_proxy" class="name">{{grouplist.name}}</label>
+  <view>
+    <view wx:for="{{ grouplist.list }}" wx:for-index="index" wx:for-item="item" wx:key="index">
+      <groupitem bind_init="_initComponent" gitem="{{ item }}"></groupitem>
+    </view>
+  </view>
+</view>
