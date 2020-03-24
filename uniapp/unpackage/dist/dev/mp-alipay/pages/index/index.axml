@@ -1,1 +1,0 @@
-<view class="content"><image class="logo" src="/static/logo.png"></image><button type="primary" data-event-opts="{{[['tap',[['trackEvent',['$event']]]]]}}" onTap="__e">trackEvent</button></view>
