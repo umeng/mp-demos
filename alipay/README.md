@@ -1,0 +1,1 @@
+[友盟官网原生支付宝小程序集成帮助文档](https://developer.umeng.com/docs/147615/detail/147727)
