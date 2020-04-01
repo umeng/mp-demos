@@ -1,6 +1,8 @@
-import Taro, { Component } from '@tarojs/taro'
+import Taro, { Component, uma } from '@tarojs/taro'
 import { View, Text } from '@tarojs/components'
 import './index.less'
+
+//import uma from '../../uma/uma';
 
 export default class Index extends Component {
 
@@ -10,7 +12,15 @@ export default class Index extends Component {
 
   componentWillUnmount () { }
 
-  componentDidShow () { }
+  componentDidShow () {
+    uma.trackEvent('bu7y', {
+      name: 'car3'
+    });
+    Taro.uma.trackEvent('ooooo', {
+      name: 'car4'
+    });
+
+   }
 
   componentDidHide () { }
 
@@ -28,7 +38,7 @@ export default class Index extends Component {
   }
 
   trackEvent () {
-    Taro.getApp().uma.trackEvent('buy', {
+    uma.trackEvent('buy', {
       name: 'car'
     });
   }
