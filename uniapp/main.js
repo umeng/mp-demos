@@ -1,7 +1,7 @@
 // #ifdef MP-WEIXIN
 import uma from 'umtrack-wx';
 uma.init({
-  appKey: '',
+  appKey: 'xxxxxx',
   useOpenid: false,
   autoGetOpenid: false,
   debug: true
@@ -10,7 +10,7 @@ uma.init({
 // #ifdef MP-ALIPAY
 import uma from 'umtrack-alipay';
 uma.init({
-  appKey: '',
+  appKey: 'xxxxx',
   debug: true
 });
 // #endif
