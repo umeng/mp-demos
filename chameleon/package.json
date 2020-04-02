@@ -4,7 +4,12 @@
   "description": "A chameleon project",
   "author": "",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "wx:dev": "cml wx dev -n",
+    "wx:build": "cml wx build",
+    "alipay:dev": "cml alipay dev -n",
+    "alipay:build": "cml alipay build"
+  },
   "license": "MIT",
   "dependencies": {
     "chameleon-api": "1.0.0",

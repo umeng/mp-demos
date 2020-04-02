@@ -3,15 +3,10 @@
 </template>
 
 <script>
-import uma from '../uma-stat.js';
+import uma from '/components/uma/uma.interface'
 import routerConfig from '../router.config.json';
 
-uma.init({
-	appKey: 'YOUR_APP_KEY',
-  useOpenid: false,
-  autoGetOpenid: false,
-	debug: true
-});
+
 
 class App {
   data = {

@@ -2,14 +2,14 @@
   <page title="chameleon">
       <scroller height="{{-1}}">
         <view class="scroller-wrap">
-          <button c-bind:tap="trackEvent">trackEvent</button> 
+          <button c-bind:tap="trackEvent"><text>trackEvent</text></button> 
         </view>
       </scroller>
   </page>
 </template>
 
 <script>
-import uma from '../../uma-stat.js'
+import uma from '/components/uma/uma.interface'
 
 class Index  {
   data = {
