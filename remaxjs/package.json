@@ -18,9 +18,10 @@
   "dependencies": {
     "clsx": "^1.0.4",
     "react": "^16.8.6",
-    "remax": "^1.1.0",
-    "remax-cli": "^1.1.0",
+    "remax": "^1.19.2",
+    "remax-cli": "^1.19.2",
     "rimraf": "^2.6.3",
+    "rollup-plugin-terser": "^5.3.0",
     "umtrack-alipay": "^2.2.2",
     "umtrack-wx": "^2.2.2"
   },

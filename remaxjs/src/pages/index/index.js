@@ -1,13 +1,12 @@
 import * as React from 'react';
-import { View, Text, Image, uma } from '@/components';
+import { View, Text, Image } from 'remax/one';
 import styles from './index.module.css';
-import { useReady } from 'remax';
+import  { useReady } from 'remax';
+import uma from '@/uma';
 
 export default () => {
-  console.log(999);
   useReady(()=>{
-    console.log(999);
-    uma().trackEvent('ppp');
+    uma.trackEvent('buy',{car:'bmw'});
   });
   return (
     <View className={styles.app}>
