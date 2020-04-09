@@ -1,5 +1,24 @@
-// import uma from 'umtrack-wx'; // 开发微信小程序时导入此模块
-import uma from 'umtrack-alipay'; // 开发支付宝小程序时导入此模块
+/* eslint-disable import/first */
+import uma from './uma';
+/**
+ * 可选的单文件集成，但作者强烈建议使用多文件的集成方式。
+ */
+// let uma = {};
+// if (process.env.TARO_ENV === 'weapp') {
+//   uma = require('umtrack-wx');
+//   uma.init({
+//     appKey: 'YOUR_APP_KEY',
+//     useOpenid: false,
+//     autoGetOpenid: false,
+//     debug: true
+//   });
+// } else if (process.env.TARO_ENV === 'alipay') {
+//   uma = require('umtrack-alipay');
+//   uma.init({
+//     appKey: 'YOUR_APP_KEY',
+//     debug: true
+//   });
+// }
 import Taro, { Component } from '@tarojs/taro'
 import Index from './pages/index'
 
@@ -11,12 +30,7 @@ import './app.less'
 //   require('nerv-devtools')
 // }
 
-uma.init({
-	appKey: 'YOUR_APP_KEY',
-  useOpenid: false,
-  autoGetOpenid: false,
-	debug: true
-});
+Taro.uma = uma ;
 
 class App extends Component {
 
@@ -39,11 +53,6 @@ class App extends Component {
       navigationBarTextStyle: 'black'
     }
   }
-
-  /****************************************************************
-   * 注意在此处为App实例添加uma
-   *****************************************************************/
-  uma = uma
 
   // 在 App 类中的 render() 函数没有实际作用
   // 请勿修改此函数

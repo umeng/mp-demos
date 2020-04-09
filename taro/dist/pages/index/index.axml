@@ -1,5 +1,0 @@
-<block a:if="{{$taroCompReady}}">
-    <view class="index">
-        <button class="btn-max-w" plain="{{true}}" type="primary" onTap="trackEvent">trackEvent</button>
-    </view>
-</block>

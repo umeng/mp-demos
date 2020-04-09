@@ -1,12 +1,13 @@
 ### 目录说明
-* wx: 微信小程序原生demo
-* alipay: 支付宝小程序原生demo
-* uniapp: uniapp框架demo
-* taro: taro框架demo
-* mpvue: mpvue框架demo
-* wepy2: wepy2.0版本框架demo
-* chameleon: chameleon框架demo
-* wx-game: 微信小程序原生demo
+* wx: [微信小程序原生demo](./wx)
+* alipay: [支付宝小程序原生demo](./alipay)
+* uniapp: [uniapp框架demo](./uniapp)
+* taro: [taro框架demo](./taro)
+* mpvue: [mpvue框架demo](./mpvue)
+* wepy2: [wepy2.0版本框架demo](wepy2)
+* chameleon: [chameleon框架demo](./chameleon)
+* wx-game: [微信小游戏原生demo](./wx-game)
+* remaxjs: [remaxjs框架demo](./remaxjs)
 
 > 目前只有2.2.0及以上版本的SDK才支持以上第三方框架
 

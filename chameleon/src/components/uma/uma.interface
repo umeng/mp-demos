@@ -1,0 +1,86 @@
+<script cml-type="interface">
+interface UmaInterface {
+  uma:object;
+}
+
+</script>
+
+<script cml-type="web">
+
+class Method implements UmaInterface {
+   uma = {}
+}
+
+export default new Method();
+</script>
+
+<script cml-type="weex">
+
+class Method implements UmaInterface {
+  uma = {}
+}
+
+export default new Method();
+</script>
+
+<script cml-type="wx">
+import uma from 'umtrack-wx';
+
+class Method implements UmaInterface {
+   uma = uma ;
+   constructor(){
+        this.uma.init({
+        appKey: 'YOUR_APP_KEY',
+        useOpenid: false,
+        autoGetOpenid: false,
+        debug: true
+        });
+   }
+}
+export default new Method().uma;
+</script>
+
+<script cml-type="alipay">
+import uma from 'umtrack-alipay';
+
+class Method implements UmaInterface {
+   uma = uma ;
+   constructor(){
+        this.uma.init({
+        appKey: 'YOUR_APP_KEY',
+        debug: true
+        });
+   }
+}
+
+export default new Method().uma;
+</script>
+
+<script cml-type="baidu">
+
+class Method implements UmaInterface {
+  uma = {}
+}
+
+export default new Method();
+</script>
+
+<script cml-type="qq">
+
+class Method implements UmaInterface {
+  uma = {}
+}
+
+export default new Method();
+</script>
+
+<script cml-type="tt">
+
+class Method implements UmaInterface {
+  uma = {}
+}
+
+export default new Method();
+</script>
+
+
