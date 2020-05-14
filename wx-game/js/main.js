@@ -95,15 +95,40 @@ export default class Main {
     let y = e.touches[0].clientY
 
     let area = this.gameinfo.btnArea
+    let gameoversharearea = this.gameinfo.gameandshareArea
+    let tracksharearea = this.gameinfo.trackshareArea
 
     if (   x >= area.startX
         && x <= area.endX
         && y >= area.startY
-        && y <= area.endY  )
-      wx.uma.trackEvent('restart', {
-        score: 0
-      });
-      this.restart()
+        && y <= area.endY  ){
+          this.restart();
+        }
+    /**
+     * 点击了游戏结束分享
+     */
+    if(   x >= gameoversharearea.startX
+      && x <= gameoversharearea.endX
+      && y >= gameoversharearea.startY
+      && y <= gameoversharearea.endY  ){
+        wx.uma.shareAppMessage({
+          title: '手动调用分享',
+          query:'key1=val1&key2=val2'
+        });
+    }
+    /**
+     * 点击了trackShare
+     */
+    if(   x >= tracksharearea.startX
+      && x <= tracksharearea.endX
+      && y >= tracksharearea.startY
+      && y <= tracksharearea.endY  ){
+        let dt = wx.uma.trackShare({
+          query: "foo=bar",
+          title: '调trackShare'
+        })
+        wx.shareAppMessage(dt);
+    }
   }
 
   /**
@@ -134,11 +159,13 @@ export default class Main {
     // 游戏结束停止帧循环
     if ( databus.gameOver ) {
       this.gameinfo.renderGameOver(ctx, databus.score)
-
       if ( !this.hasEventBind ) {
         this.hasEventBind = true
         this.touchHandler = this.touchEventHandler.bind(this)
         canvas.addEventListener('touchstart', this.touchHandler)
+        wx.uma.trackEvent('gameover',{
+          score:databus.score
+        });
       }
     }
   }

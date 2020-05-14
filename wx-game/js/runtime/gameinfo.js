@@ -23,8 +23,8 @@ export default class GameInfo {
     ctx.font    = "20px Arial"
 
     ctx.fillText(
-      '游戏结束',
-      screenWidth / 2 - 40,
+      '游戏结束点击分享',
+      screenWidth / 2 - 80,
       screenHeight / 2 - 100 + 50
     )
 
@@ -47,7 +47,11 @@ export default class GameInfo {
       screenWidth / 2 - 40,
       screenHeight / 2 - 100 + 205
     )
-
+    ctx.fillText(
+      'trackShare',
+      10,
+      60
+    )
     /**
      * 重新开始按钮区域
      * 方便简易判断按钮点击
@@ -57,6 +61,18 @@ export default class GameInfo {
       startY: screenHeight / 2 - 100 + 180,
       endX  : screenWidth / 2  + 50,
       endY  : screenHeight / 2 - 100 + 255
+    }
+    this.gameandshareArea= {
+      startX: screenWidth / 2 - 80,
+      startY:screenHeight / 2 - 100 + 30,
+      endX  : screenWidth / 2  + 80,
+      endY  : screenHeight / 2 - 100 + 60
+    }
+    this.trackshareArea= {
+      startX: 0,
+      startY: 30,
+      endX  : 110,
+      endY  : 90
     }
   }
 }
