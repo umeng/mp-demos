@@ -12,7 +12,7 @@
   "author": "gongzhen",
   "license": "ISC",
   "dependencies": {
-    "umtrack-alipay": "^2.2.0",
-    "umtrack-wx": "^2.2.1-1"
+    "umtrack-alipay": "^2.3.2",
+    "umtrack-wx": "^2.3.2"
   }
 }

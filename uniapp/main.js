@@ -1,20 +1,4 @@
-// #ifdef MP-WEIXIN
-import uma from 'umtrack-wx';
-uma.init({
-  appKey: 'xxxxxx',
-  useOpenid: false,
-  autoGetOpenid: false,
-  debug: true
-});
-// #endif
-// #ifdef MP-ALIPAY
-import uma from 'umtrack-alipay';
-uma.init({
-  appKey: 'xxxxx',
-  debug: true
-});
-// #endif
-
+import uma from './uma';
 import Vue from 'vue'
 import App from './App'
 
