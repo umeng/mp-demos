@@ -46,12 +46,6 @@ export default class Index extends Component {
   render () {
     return (
       <View className='index'>
-        <Button onClick={()=>{
-          Taro.navigateTo({url:'/pages/index/subpage'}).then(()=>{
-
-          })
-
-        }}>跳转二级页</Button>
         <Button className='btn-max-w' plain type='primary' onClick={this.trackEvent}>trackEvent</Button>
       </View>
     )
