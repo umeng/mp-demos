@@ -1,0 +1,39 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:wechat": "megalo-cli-service build",
+    "build:alipay": "megalo-cli-service build --platform alipay",
+    "build:swan": "megalo-cli-service build --platform swan",
+    "build:toutiao": "megalo-cli-service build --platform toutiao",
+    "dev:alipay": "megalo-cli-service serve --platform alipay",
+    "dev:swan": "megalo-cli-service serve --platform swan",
+    "dev:wechat": "megalo-cli-service serve",
+    "dev:toutiao": "megalo-cli-service serve --platform toutiao",
+    "lint": "megalo-cli-service lint"
+  },
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "@megalo/app"
+    ]
+  },
+  "devDependencies": {
+    "@megalo/babel-preset-app": "latest",
+    "@megalo/cli-plugin-eslint": "latest",
+    "@megalo/cli-service": "latest",
+    "@megalo/eslint-config-standard": "latest",
+    "@megalo/target": "latest",
+    "@megalo/template-compiler": "latest",
+    "eslint": "^5.15.3",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0"
+  },
+  "dependencies": {
+    "@megalo/vhtml-plugin": "latest",
+    "megalo": "latest",
+    "octoparse": "^0.4.2",
+    "umtrack-wx": "^2.3.3"
+  }
+}
