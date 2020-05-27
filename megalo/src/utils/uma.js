@@ -1,5 +1,4 @@
-const uma = require('umtrack-wx')
-//import uma from './uma.min.js'
+import uma from 'umtrack-wx'
 
 uma.init({
   appKey: 'xxxx', // 由友盟分配的APP_KEY
