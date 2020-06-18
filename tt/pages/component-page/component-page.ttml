@@ -1,0 +1,3 @@
+<!-- pages/component-page/component-page.ttml -->
+<text>component 测试页</text>
+  <button type="primary" bindtap="onShareAppMessage"> 分享 </button>
