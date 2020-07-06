@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "page1",
+  "usingComponents": {
+    "my-component": "../../components/my-components/my-component"
+  }
+}

@@ -1,0 +1,5 @@
+<!--components/my-components/my-component.wxml-->
+<view>
+  <text> my-component 自定义组件 </text>
+  <button type="primary" bindtap="onShow">onShow </button>
+</view>
