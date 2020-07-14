@@ -11,7 +11,7 @@
 
 > 目前只有2.2.0及以上版本的SDK才支持以上第三方框架
 
-目前SDK的线上最新版本为2.2.1，如需升级请执行以下步骤：  
+目前SDK的线上最新版本为2.3.5，如需升级请执行以下步骤：  
 
 微信
 * 删除本地的node_modules/umtrack-wx目录
@@ -25,3 +25,7 @@
 * 安装最新版本：npm i umtrack-alipay@next
 * 确认最新版本为 2.2.1-0
 * 清空缓存，重新编译
+
+### 关注我们
+友小盟数据官,随时随地查看应用数据
+![友小盟数据官](https://gw.alicdn.com/tfs/TB1BtJebMgP7K4jSZFqXXamhVXa-430-430.png)
