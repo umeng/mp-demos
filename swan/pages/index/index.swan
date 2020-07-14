@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view>
+  <button type="primary" bindtap="gotoPage1">页面1 </button>
+  <!-- <button bindtap="clearCache"> 删除云配缓存 </button>
+  <button bindtap="fetch"> fetch </button>
+  <button bindtap="active"> 激活 </button>
+  <button bindtap="getValue"> getValue </button> -->
+  <button type="primary" bindtap="trackEvent"> trackEvent </button>
+  <button type="primary" bindtap="gotoLog"> 商品列表页 </button>
+  <button type="primary" bindtap="getCache"> 获取cache </button>
+  <button type="primary" bindtap="clearSDKCache"> 删除sdk缓存 </button>
+  <button type="primary" bindtap="connectWS"> 连接ws </button>
+  <button type="primary" bindtap="closeWS"> 关闭ws </button>
+  <button type="primary" bindtap="testStorageRead"> storage读测试 </button>
+  <button open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 授权获取用户信息 </button>
+  <!-- <button bindtap="handleSetOpenid"> setOpenid </button> -->
+  <!-- <button bindtap="handleSetUnionid"> setUnionid </button> -->
+  <button bindtap="handleSetUserid"> setUserid </button>
+<button bindtap="handleSetAnonymousid"> setAnonymousid </button>
+  <button bindtap="getAppHide"> getAppHide </button>
+  <button bindtap="getPageHide"> getPageHide </button>
+  <button bindtap="getPaqeUnload"> getPageUnload </button>
+  <button bindtap="getHideCb"> getHideCb </button>
+  <button bindtap="setCookies"> setCookies </button>
+  <button bindtap="getCookies"> getCookies </button>
+  <button bindtap="authorize"> authorize </button>
+  <button open-type="share"> 分享 </button>
+  <my-component></my-component>
+</view>
+

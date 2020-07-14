@@ -1,0 +1,29 @@
+{
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"appid": "ttd710a1ad482af1e6",
+	"projectname": "tt",
+	"condition": {
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": 0,
+					"name": "queryTest",
+					"pathName": "pages/index/index",
+					"query": "_um_campaign=5ee36c43dbc2ec076dd4723a&_um_channel=5ee36c43dbc2ec076dd4723b",
+					"scene": "011001",
+					"referrerInfo": {
+						"appId": "",
+						"extraData": ""
+					}
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,8 @@
+<view>
+  <button type="primary" bindtap="choose"> 选择商品 </button>
+  <button type="primary" bindtap="view"> 查看商品 </button>
+  <button type="primary" bindtap="add"> 添加购物车 </button>
+  <button type="primary" bindtap="buy"> 购买 </button>
+  <button type="primary" bindtap="pay"> 付款 </button>
+</view>
+
