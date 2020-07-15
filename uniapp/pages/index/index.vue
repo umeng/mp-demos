@@ -40,7 +40,7 @@
 		},
 		methods: {
 			trackEvent () {
-				this.uma.trackEvent('buy', {
+				this.$uma.trackEvent('buy', {
 					name: 'tv'
 				});
 			}

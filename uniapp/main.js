@@ -2,9 +2,8 @@ import uma from './uma';
 import Vue from 'vue'
 import App from './App'
 
-Vue.prototype.uma = uma;
-
 Vue.config.productionTip = false
+Vue.use(uma);
 
 App.mpType = 'app'
 
