@@ -70,6 +70,10 @@
         "usingComponents" : true
     },
     "mp-toutiao" : {
-        "usingComponents" : true
+        "usingComponents" : true,
+        "appid" : "ttd710a1ad482af1e6",
+        "setting" : {
+            "minified" : true
+        }
     }
 }
