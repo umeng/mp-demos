@@ -1,6 +1,12 @@
 <script>
 	export default {
 		onLaunch: function() {
+			setTimeout(()=>{
+				//this.$uma.setOpenid('setOpenid')
+				// #ifdef MP-TOUTIAO
+					this.$uma.setAnonymousid('setAnonymousid')
+				// #endif
+			},5000)
 			console.log('App Launch')
 		},
 		onShow: function() {
