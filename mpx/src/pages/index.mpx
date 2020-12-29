@@ -1,0 +1,29 @@
+<template>
+  <list></list>
+</template>
+
+<script>
+  import { createPage } from '@mpxjs/core'
+
+  createPage({
+    onLoad () {},
+    onShareAppMessage() {
+      return {
+        title: '自定义转发标题',
+        path: '/pages/index',
+        imageUrl: 'url',
+        success: res => {},
+        fail: () => {},
+        complete: () => {}
+      };
+    }
+  })
+</script>
+
+<script type="application/json">
+  {
+    "usingComponents": {
+      "list": "../components/list"
+    }
+  }
+</script>
