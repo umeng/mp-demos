@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "umtrack-alipay": "^2.5.2"
+    "umtrack-alipay": "^2.4.11"
   },
   "devDependencies": {}
 }

@@ -25,15 +25,30 @@ Page({
   },
   noop2() {
   console.log('noop')
-  my.getOpenUserInfo({
-    fail: (res) => {
-      console.log(res)
+  var callback = function(){}
+  my.getSetting({
+    success: function (res) {
+      console.log('setting: ', res);
+
+      if (res && res.authSetting && res.authSetting.userInfo) {
+        my.getOpenUserInfo({
+          fail: (res) => {
+            console.log(res)
+          },
+          success: (res) => {
+            let userInfo = JSON.parse(res.response).response // 以下方的报文格式解析两层 response
+            console.log(userInfo)
+          }
+        });
+      } else {
+        callback && callback();
+      }
     },
-    success: (res) => {
-      let userInfo = JSON.parse(res.response).response // 以下方的报文格式解析两层 response
-      console.log(userInfo)
-    }
-  });
+  fail: function (e) {
+      console.log(e)
+      callback && callback(); 
+  }
+})
 },
   trackEvent() {
     const eventId = 'event1';

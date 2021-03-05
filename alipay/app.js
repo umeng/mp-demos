@@ -1,9 +1,10 @@
-import 'umtrack-alipay';
+import './uma.min.js';
 
 App({
   umengConfig: {
     appKey: 'YOUR_APP_KEY',
-    debug: true
+    debug: true,
+    uploadUserInfo:true
   },
   onLaunch(options) {
   },
