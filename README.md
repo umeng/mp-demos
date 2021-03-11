@@ -1,3 +1,6 @@
+# umeng小程序demo
+友盟+小程序统计sdk,小游戏统计sdk demo
+
 ### 镜像仓库
 为提高国内访问速度，以下仓库实时同步
 * gitee https://gitee.com/umengplus/mp-demos
