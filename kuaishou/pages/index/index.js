@@ -2,9 +2,20 @@
 Page({
   data: {
     motto: "Hello World",
-    avator:''
+    avator:'',
+    id:''
   },
-  onLoad: function () {},
+  onLoad: function () {
+    try {
+      var value = ks.getStorageSync("um_uuid");
+      if (value) {
+        this.setData({id:value});
+        // Do something with return value
+      }
+    } catch (e) {
+      // Do something when catch error
+    }
+  },
   onShareAppMessage() {
     return {
       path: "pages/index/index?d=8",

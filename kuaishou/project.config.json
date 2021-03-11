@@ -31,7 +31,7 @@
         "userConfirmedUseCompilerModuleSwitch": false
     },
     "compileType": "miniprogram",
-    "libVersion": "0.2.0",
+    "libVersion": "1.7.1",
     "appid": "ks675821420027742766",
     "projectname": "kts",
     "debugOptions": {

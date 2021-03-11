@@ -2,6 +2,7 @@
 <view class="container">
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
+    <text class="user-motto">{{id}}</text>
     <image src="{{avator}}"></image>
   </view>
   <button class="button" type="primary" bindtap="track">自定义事件</button>

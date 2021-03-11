@@ -9,7 +9,7 @@ uma.init({
 App({
   onLaunch: function () {
     ks.onAppHide(function(){
-      console.log('hide.....')
+      console.log('onAppHide.....')
     })
     ks.getSystemInfo({
       success:function(res){
@@ -18,9 +18,9 @@ App({
     })
   },
   onShow(){
-    console.log(';;;;;;;;;;')
+    console.log('onShow....')
   },
   onHide:function(){
-    console.log('...999999999....')
+    console.log('onHide....')
   },
 })
