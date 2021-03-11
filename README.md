@@ -1,3 +1,7 @@
+### 镜像仓库
+为提高国内访问速度，以下仓库实时同步
+* gitee https://gitee.com/umengplus/mp-demos
+* github https://github.com/umeng/mp-demos
 ### 目录说明
 * wx: [微信小程序原生demo](./wx)
 * alipay: [支付宝小程序原生demo](./alipay)
