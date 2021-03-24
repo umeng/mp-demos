@@ -1,0 +1,6 @@
+{
+  "miniprogramRoot": "build/miniapp",
+  "scripts": {
+    "beforeUpload": "npm run build"
+  }
+}
