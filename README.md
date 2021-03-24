@@ -7,6 +7,7 @@
 * github https://github.com/umeng/mp-demos
 ### 目录说明
 * wx: [微信小程序原生demo](./wx)
+* wx-plugin: [微信小程序插件demo](./wx-plugin)
 * alipay: [支付宝小程序原生demo](./alipay)
 * uniapp: [uniapp框架demo](./uniapp)
 * taro: [taro框架demo](./taro)
@@ -21,7 +22,7 @@
 
 > 目前只有2.2.0及以上版本的SDK才支持以上第三方框架
 
-目前SDK的线上最新版本为2.5.2，如需升级请执行以下步骤：  
+如需升级请执行以下步骤：  
 
 微信
 * 删除本地的node_modules/umtrack-wx目录
