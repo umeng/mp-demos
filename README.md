@@ -19,6 +19,7 @@
 * chameleon: [chameleon框架demo](./chameleon)
 * wx-game: [微信小游戏原生demo](./wx-game)
 * remaxjs: [remaxjs框架demo](./remaxjs)
+* rax: [rax-微信demo](./rax)
 
 > 目前只有2.2.0及以上版本的SDK才支持以上第三方框架
 

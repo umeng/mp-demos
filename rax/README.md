@@ -2,7 +2,7 @@
 
 以微信小程序为例，关键代码如下
  在`app.js`中
- 
+
 ```js
 import { runApp } from 'rax-app';
 import uma from 'umtrack-wx';
