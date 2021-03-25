@@ -1,5 +1,5 @@
 const plugin = requirePlugin('hello-plugin')
-plugin.init(wx);
+plugin.init({onAppShow:wx.onAppShow,onAppHide:wx.onAppHide});
 App({
   onLaunch() {
   }
