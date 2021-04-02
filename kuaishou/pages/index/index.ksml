@@ -5,6 +5,8 @@
     <text class="user-motto">{{id}}</text>
     <image src="{{avator}}"></image>
   </view>
+  <text> show{{showtime}}</text>
+   <text>hide{{hidetime}}</text>
   <button class="button" type="primary" bindtap="track">自定义事件</button>
   <button open-type="getUserInfo" bindgetuserinfo="getinfo">获取用户信息</button>
 </view>

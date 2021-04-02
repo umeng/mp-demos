@@ -16,13 +16,17 @@ Page({
       // Do something when catch error
     }
   },
+  onShow(){
+      this.setData({ hidetime: getApp().globalData.hidetime, showtime: getApp().globalData.showtime });
+      
+  },
   onShareAppMessage() {
     return {
       path: "pages/index/index?d=8",
     };
   },
   track() {
-    ks.uma.trackEvent("idxxxx", { test: 9 });
+    //ks.uma.trackEvent("idxxxx", { test: 9 });
   },
   getinfo(res) {
     console.log(res)
