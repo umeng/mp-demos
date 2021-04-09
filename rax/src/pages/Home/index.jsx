@@ -1,4 +1,5 @@
 import { createElement } from 'rax';
+import { history } from 'rax-app';
 import View from 'rax-view';
 import Text from 'rax-text';
 
@@ -13,6 +14,12 @@ export default function Home() {
       <Text className={styles.homeTitle}>Welcome to Your Rax App</Text>
       <Text className={styles.homeInfo}>More information about Rax</Text>
       <Text className={styles.homeInfo}>Visit https://rax.js.org</Text>
+      <button onClick={()=>{
+        wx.uma.trackEvent('xxx');
+      }}>自定义事件</button>
+      <View onClick={()=>{
+          history.push('/sub')
+      }}>跳转sub页面</View>
     </View>
   );
 }

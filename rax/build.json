@@ -1,7 +1,5 @@
 {
   "targets": [
-    "web",
-    "miniapp",
     "wechat-miniprogram"
   ],
   "plugins": [
