@@ -20,6 +20,7 @@
 * wx-game: [微信小游戏原生demo](./wx-game)
 * remaxjs: [remaxjs框架demo](./remaxjs)
 * rax: [rax-微信demo](./rax)
+* kuaishou: [快手小程序](./kuaishou)
 
 > 目前只有2.2.0及以上版本的SDK才支持以上第三方框架
 
@@ -49,7 +50,7 @@
 | 百度小程序 | npm install umtrack-swan@latest --save
 | QQ小程序 | npm install umtrack-qq@latest --save
 | QQ小游戏 | npm install umtrack-qq-game@latest --save
-| 快手小程序(2021.5.1即将上线) | npm install umtrack-ks@latest --save  
+| 快手小程序 | npm install umtrack-ks@latest --save  
 
 ### 查看npm版本和下载对应文件包
 以微信为例,查看最新稳定版微信小程序小程序sdk包下载地址，可以通过如下命令
