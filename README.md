@@ -50,7 +50,7 @@
 | 百度小程序 | npm install umtrack-swan@latest --save
 | QQ小程序 | npm install umtrack-qq@latest --save
 | QQ小游戏 | npm install umtrack-qq-game@latest --save
-| 快手小程序 | npm install umtrack-ks@latest --save  
+| 快手小程序 | npm install umtrack-kuaishou@latest --save  
 
 ### 查看npm版本和下载对应文件包
 以微信为例,查看最新稳定版微信小程序小程序sdk包下载地址，可以通过如下命令
