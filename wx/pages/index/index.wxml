@@ -2,4 +2,6 @@
 <view>
   <button type="primary" bindtap="gotoPage1">去页面1 </button>
   <button type="primary" bindtap="trackEvent"> 测试trackEvent </button>
+  <button type="default" bindtap="getUserProfile">手动获取用户信息</button>
+  <button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">旧版的获取用户信息</button>
 </view>

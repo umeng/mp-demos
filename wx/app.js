@@ -1,12 +1,13 @@
 // app.js
-require('umtrack-wx');
+var uma = require('./uma');
 
 App({
   umengConfig: {
     appKey: 'YOUR_APP_KEY',
     useOpenid: false,
     autoGetOpenid: false,
-    debug: true
+    debug: true,
+    uploadUserInfo:true
   },
 
   onLaunch(options) {
@@ -22,5 +23,6 @@ App({
   },
   
   globalData: {
+    uma:uma
   }
 });
