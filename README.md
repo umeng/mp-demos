@@ -21,6 +21,7 @@
 * remaxjs: [remaxjs框架demo](./remaxjs)
 * rax: [rax-微信demo](./rax)
 * kuaishou: [快手小程序](./kuaishou)
+* cocos2x: [快游戏cocos2.x](./cocos2x)
 
 > 目前只有2.2.0及以上版本的SDK才支持以上第三方框架
 
