@@ -1,3 +1,17 @@
+# Umeng+ U-Mini Analytics Demos
+
+友盟+ U-Mini小程序与小游戏统计官方示例，覆盖微信、支付宝、Taro、uni-app、Cocos等框架。
+
+## Quick Links｜快速入口
+
+- [SDK开发者中心](https://devs.umeng.com/)
+- [友盟+官网](https://www.umeng.com/)
+- [提交接入问题](https://github.com/umeng/mp-demos/issues)
+
+> 本次仅优化项目说明，不修改各框架示例代码。
+
+---
+
 # Umeng小程序demo
 友盟+小程序统计sdk,小游戏统计sdk demo
 
