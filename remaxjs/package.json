@@ -5,7 +5,7 @@
   "description": "Starter template for Remax apps",
   "main": "index.js",
   "keywords": [],
-  "author": "云猫🐈",
+  "author": "\u4e91\u732b\ud83d\udc08",
   "license": "MIT",
   "scripts": {
     "dev:wx": "cross-env REMAX_PLATFORM=wechat remax build -w -t wechat",
@@ -28,5 +28,8 @@
   "devDependencies": {
     "chokidar": "^2.1.8",
     "cross-env": "^7.0.2"
+  },
+  "overrides": {
+    "@babel/traverse": "7.23.2"
   }
 }
