@@ -73,6 +73,13 @@
 ```sh
 npm view umtrack-wx@latest dist.tarball
 ```
+## 友盟开发者知识库
+
+遇到 SDK 接入、消息推送、崩溃分析、小程序统计或 AI 工具问题，可访问：
+
+- [友盟开发者知识库](https://github.com/umeng/umeng-developer-guide)
+- [友盟官方开发者文档](https://developer.umeng.com/docs)
+
 
 ### 关注我们
 友小盟数据官,随时随地查看应用数据
